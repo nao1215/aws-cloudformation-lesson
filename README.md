@@ -10,7 +10,18 @@ So, I'll have ChatGPT create questions, and I'll provide the answer to that prob
 - [localstack](https://localstack.cloud/)
 
 ## Questions & Answers
-[WIP]
+|No.|Question|Answer|
+|:---|:---|:---|
+|1|Hosting a static website: Set up an S3 bucket to store HTML, CSS, and JavaScript files and configure it for static website hosting.|[WIP]|
+|2|Serverless API: Create an API Gateway endpoint connected to an AWS Lambda function for handling API requests.|[WIP]|
+|3|Database deployment: Provision an Amazon RDS instance, such as MySQL or PostgreSQL, with appropriate security groups and database configurations.|[WIP]|
+|4|File storage solution: Create an S3 bucket with fine-grained access control for storing and managing files.|[WIP]|
+|5|Event-driven processing: Set up an SNS topic to receive events and trigger a Lambda function for processing.|[WIP]|
+|6|Scheduled job execution: Use CloudWatch Events to schedule and trigger a Lambda function at specific intervals.|[WIP]|
+|7|Simple notification system: Configure an SNS topic to send email notifications when specific events occur.|[WIP]|
+|8|Serverless image resizing: Create a Lambda function that automatically resizes and stores images uploaded to an S3 bucket.|[WIP]|
+|9|Data warehousing: Provision an Amazon Redshift cluster for large-scale data storage and analysis.|[WIP]|
+|10|Monitoring and logging: Set up CloudWatch Alarms and CloudWatch Logs for monitoring and logging important metrics and events.|[WIP]|
 
 ## Contributing
 I'm looking for someone who can come up with the infrastructure construction (it means 'question') that should be created with CloudFormation.  
