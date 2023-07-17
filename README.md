@@ -1,13 +1,29 @@
 # AWS CFn examples with localstack
 The aws-cloudformation-lesson repository covers examples of CloudFormation templates.
 
-Do you like AWS CloudFormation? I'm not a fan and I dislike it. However, when building infrastructure as code (IaC) on AWS, using CFn is inevitable (although there are other options like CDK and Terraform).
+Do you like AWS CloudFormation? I'm not a fan it. However, when building infrastructure as code (IaC) on AWS, using CFn is inevitable (although there are other options like CDK and Terraform).
 
 So, I'll have ChatGPT create questions, and I'll provide the answer to that problem. Building infrastructure on AWS incurs costs. So, I will use [localstack (AWS mock)](https://localstack.cloud/). However, please note that there is a monthly fee for using localstack to mock certain AWS services.
 
 ## Prerequisites
-- [Docker](https://www.docker.com/)
-- [localstack](https://localstack.cloud/)
+- [Docker（docker-compose）](https://www.docker.com/)
+- [localstack（awscli-local）](https://localstack.cloud/)
+  - You set dummy credentials for awscli-local.
+    ```
+    $ mkdir -p ~/.aws
+
+    $ cat >> ~/.aws/config << EOF
+    [default]
+    region = ap-northeast-1
+    output = json
+    EOF
+
+    $ cat >> ~/.aws/credentials << EOF
+    [default]
+    aws_access_key_id = dummy
+    aws_secret_access_key = dummy
+    EOF
+    ```
 
 ## Questions & Answers
 |No.|Question|Answer|

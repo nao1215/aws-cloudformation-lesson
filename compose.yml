@@ -1,7 +1,7 @@
 version: '3'
 services:
   localstack:
-    container_name: "emigre-localstack_main"
+    container_name: "lesson_localstack_main"
     image: localstack/localstack
     ports:
       - "127.0.0.1:4566:4566" # LocalStack Gateway         
